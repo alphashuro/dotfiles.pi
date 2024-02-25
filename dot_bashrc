@@ -114,7 +114,8 @@ fi
 . "$HOME/.cargo/env"
 
 export PATH=/usr/bin:$PATH
-export DOCKER_HOST=unix:///run/user/1000/docker.sock
+# export DOCKER_HOST=unix:///run/user/1000/docker.sock
 export PATH=$HOME/bin:$PATH
 
 export EDITOR=nvim
+export KUBECONFIG=$HOME/.kube/config
